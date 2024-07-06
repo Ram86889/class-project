@@ -1,0 +1,28 @@
+*{
+    background-color: aqua;
+}
+
+.navbar{
+    display: flex;
+    /* flex is helping to convert our block levele elements to inline elements */
+    justify-content:space-between;
+    /* it creates space between elemnets */
+    margin:0px 50PX;
+}
+
+.navbar-list{
+    
+    display: flex;
+}
+li{
+    list-style-type:none;
+    margin-right: 1rem; /*1rem = 16px*/
+    font-size: 1.2rem;
+}
+li > a {
+    text-decoration: none;
+    color: black;
+}
+li > a:hover{
+    color: red;
+}

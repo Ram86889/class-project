@@ -1,0 +1,14 @@
+*{
+    background-color: yellow;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+h1 ,h2,h3,h4{
+    color:red;
+    margin-right: 200px;
+}
+.discription{
+    margin-left:200px ;
+}
